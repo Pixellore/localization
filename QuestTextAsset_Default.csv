@@ -26,7 +26,7 @@ M_Q_09_Minerals_02_Desc,Get some white methane for Litzi. She said they are in t
 M_Q_10_Massage_Ida_Desc,Talk to Ida as soon as possible.
 M_Q_11_Mine_Tau_Desc,Talk to Tau Mogorosi. He is in Mine Control. MC is to the east of camp.
 M_Q_12_Mining_Equip_Desc,Talk to Judith. She is on the first floor of the Generator Facility.
-M_Q_13_Investingation_Desc,""You need to find traces of past exploration teams that have disappeared from underground areas. They may have left a trace of something.""
+M_Q_13_Investingation_Desc,"You need to find traces of past exploration teams that have disappeared from underground areas. They may have left a trace of something."
 M_Q_14_ControlCenter_Desc,"There seems to be a control center on the B05 floor. Let's look into the place."
 M_Q_15_ControlCenterCom_Desc,"You finally reached the control center. You may find some clues here."
 Sub_Q_Lamp,Lamp
