@@ -7,10 +7,6 @@ HeadAccessory_002_NameKey,Goggles
 HeadAccessory_002_DescKey,Goggles that can protect the eyes. Other gear will be needed for the rest of the head.
 HeadAccessory_004_NameKey,Isko's Glasses
 HeadAccessory_004_Desc,These are Isco's glasses. The prescription of glasses is very low.
-HeadGear_001_NameKey,Future Helmet: Yellow
-HeadGear_001_DescKey,"It is a helmet for future use, and it is yellow."
-HeadGear_002_NameKey,Future Helmet: Black
-HeadGear_002_DescKey,"It is a helmet for future use, and it is black."
 Body_002_NameKey,Camp Sportswear
 Body_002_DescKey,Convenient sportswear made by TECC. It's a staple outfit for the people in the camp.
 Hand_012_NameKey,Protective Gloves: Gray
@@ -55,8 +51,6 @@ Arrow_001_NameKey,Arrow
 Arrow_001_DescKey,"Plain and simple arrows. They probably won't survive more than one shot, though. "
 Mushroom_NameKey,Cave Mushroom
 Mushroom_DescKey,It's a mushroom that grows in caves. It might be dangerous to consume when raw. 
-Mineral_001_NameKey,Black methane mineral
-Mineral_001_DescKey,"A slab of black methane, the most common form of methane on Titan. "
 Mineral_002_NameKey,White methane mineral
 Mineral_002_DescKey,"White methane requires a higher temperature and pressure than black methane, so it's less common. "
 Shabby_Key_NameKey,Shabby key card
