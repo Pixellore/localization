@@ -153,7 +153,6 @@ Junk_Wood_Dummy,Planks
 Junk_Wood_Dummy_Desc,Torn and bent planks of wood that would probably give splinters before support.
 Junk_1X1_F_001,Ragged Doll
 Junk_1X1_F_002,Torn Doll
-Junk_1X1_F_003,Lemilore Doll
 Junk_1X1_F_004,Towel
 Junk_1X1_F_005,Bedsheet
 Junk_1X1_M_001,Rusty Thing
@@ -178,7 +177,6 @@ Junk_1X1_P_005,Squeeze Bottle
 Junk_1X1_P_006,Destroyed Cup
 Junk_1X1_P_007,Comb
 Junk_1X1_P_008,Tube
-Junk_1X1_P_009,Crushed Bottle
 Junk_1x2_M_001,Broken Blade
 Junk_1x2_M_002,Broken Knife
 Junk_1x2_M_003,Broken Cleaver
@@ -230,7 +228,6 @@ Junk_2x3_F_001,Fire Extinguisher
 Junk_2x3_M_001,Bathrobe 
 Junk_1X1_F_001_Desc,A poor plushie that's probably seen more than it wanted to.
 Junk_1X1_F_002_Desc,An old toy that looks like it got a lot of use when it was new.
-Junk_1X1_F_003_Desc,
 Junk_1X1_F_004_Desc,"A dirty, torn towel. It's probably not a good idea to try cleaning with it."
 Junk_1X1_F_005_Desc,"An old bedsheet. It's not very damaged, but no idea how sanitary it is."
 Junk_1X1_M_001_Desc,Some sort of rusty object. It's somewhat hard to tell what it even was originally.
@@ -255,7 +252,6 @@ Junk_1X1_P_005_Desc,"It looks like one of those plastic bottles that you squeeze
 Junk_1X1_P_006_Desc,A strangely destroyed cup. It almost looks like it was shredded by claws.
 Junk_1X1_P_007_Desc,"Dusty combs and other hair products. They look pretty usable, but now doesn't seem like the time."
 Junk_1X1_P_008_Desc,"A degraded circular container of some sort. Probably a tube? Well, it's hardly usable now, anyway."
-Junk_1X1_P_009_Desc,
 Junk_1x2_M_001_Desc,"A chipped old blade. It kind of looks like it'd still hurt, but it's probably best not to test that."
 Junk_1x2_M_002_Desc,"A pointless kitchen knife, except for the blade that's going to end up as scrap metal."
 Junk_1x2_M_003_Desc,A fractured kitchen cleaver that looks ready to fall apart at the slightest hint of force.
