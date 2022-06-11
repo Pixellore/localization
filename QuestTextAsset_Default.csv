@@ -68,3 +68,7 @@ Tutorial_Production,Camp Management
 Tutorial_Production_Desc,"Item production can be requested through the Production UI.\n\nThe types of tasks you can request are as follows:\n- Research: Unlock a new item to craft by researching items or blueprints.\n- Craft: Spend materials to create useful items and equipment.\n- Recycle: Destroy an item to get back some of its material cost.\n\nA production task uses materials from your personal storage (located in the Supply Depot), and the resulting items are deposited into the same personal storage.\n\nA production task also costs credits, and the efficiency of the camp members and facilities that perform the task affects the work time."
 Tutorial_CampManagement,Camp Management
 Tutorial_CampManagement_Desc,"In the Camp Management UI, you can control the production and consumption of resources in the camp.\n\nResources are consumed every turn, and insufficient resources affects the health of camp members, the efficiency of the facility, and the supply of electricity to the underground.\n\nSearch and scavenge in the caves or underground areas for items that you can use or recycle."
+Sub_Q_Slug_Slime,Grease Replacement.
+Sub_Q_Slug_Slime_Desc,Bring Slug Slime to Litzi to be used as grease subsititue material.
+Sub_Q_BeetleShell,More hard material.
+Sub_Q_BeetleShell_Desc,Judith wants some hard beetle shell.
