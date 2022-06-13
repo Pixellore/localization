@@ -1,11 +1,11 @@
 Language,Default
 Fist_NameKey,Fist
-HeadAccessory_001_NameKey,horn spectacles
+HeadAccessory_001_NameKey,Horn Spectacles
 HeadAccessory_001_DescKey,It's a pair of horn-shaped glasses.
 HeadAccessory_002_NameKey,Goggles
 HeadAccessory_002_DescKey,Goggles that can protect the eyes. Other gear will be needed for the rest of the head.
 HeadAccessory_004_NameKey,Isko's Glasses
-HeadAccessory_004_Desc,These are Isko's glasses. The prescription of glasses is very low.
+HeadAccessory_004_Desc,These are Isko's glasses. It actually isn't a very strong prescription.
 HeadGear_001_NameKey,Future Helmet: Yellow
 HeadGear_001_DescKey,"It is a helmet for future use, and it is yellow."
 HeadGear_002_NameKey,Future Helmet: Black
@@ -19,7 +19,7 @@ Foot_002_DescKey,"Very normal shoes with nothing noteworthy about them, except f
 HeadGear_003_NameKey,Miner Helmet
 HeadGear_003_DescKey,A simple helmet worn by the miners on Titan.
 Body_022_NameKey,Miner Uniform
-Body_022_DescKey,Pretty basic miner's uniform. Offers minor protection against cold and heat.
+Body_022_DescKey,A pretty basic miner's uniform. Offers minor protection against cold and heat.
 Hand_015_NameKey,Miner Gloves
 Hand_015_DescKey,Essential safety gloves for miners. Good grips won't slip!
 Foot_021_NameKey,Miner Shoes
@@ -28,7 +28,7 @@ Cockroach_Yokan_NameKey,Cockroach Yokan
 Huygen_Bread_NameKey,Bread
 Mushroom_Salad,Mushroom Salad
 Cockroach_Yokan_DescKey,Food made from cockroaches? Can't believe they followed us all the way to Titan.
-Huygen_Bread_DescKey,Bread is rare on Titan. The ingredients are different.  so it tastes... off.
+Huygen_Bread_DescKey,Bread is rare on Titan. The ingredients are different, so it tastes... off.
 Mushroom_Salad_Desc,Mushrooms with some simple greens. Not bad at all. Alp's probably had a lot of practice lately.
 Water_NameKey,Water
 Water_DescKey,"Clean, purified water. Definitely nothing dangerous or toxic in here."
@@ -36,11 +36,11 @@ Centipede_Juice_NameKey,Centipede Juice
 Centipede_Juice_DescKey,"Juice made from centipedes. It's... not that bad, surprisingly. "
 Bandage_NameKey,Bandage
 Bandage_DescKey,"A basic bandage that can stop minor bleeding. It probably won't help with more serious injuries, like a lost limb. "
-First-aid_kit_NameKey,First aid kit
+First-aid_kit_NameKey,First Aid Kit
 First-aid_kit_DescKey,A box that contains various items to treat wounds.
-AidKit_NameKey,Aid kit
+AidKit_NameKey,Aid Kit
 AidKit_DescKey,A first aid kit that can heal simple wounds.
-DummyOxygen_key,Portable Oxygen
+DummyOxygen_key,Oxygen Canister
 DummyOxygen_DescKey,"A portable oxygen canister that helps you survive in oxygen-poor areas for a short time. There doesn't seem to be a way to refill it, though."
 Battery_NameKey,Battery
 Battery_DescKey,"A small battery that can power a variety of equipment for a short time. It doesn't seem to have a way to recharge, though."
@@ -74,19 +74,19 @@ Key_Card_BedRoom_Desc,The keycard that grants access to the room that Gin Lao is
 Key_Card_Power_B01_Desc,An old yellow keycard. 'Power Relay Access' is printed on the front.
 Key_Card_Air_B01_Desc,An old blue keycard. 'Air Circulator Access' is printed on the front.
 Key_Card_Pub_Desc,Alp gave me this keycard so that I can deal with the rats in his basement. They must be really bad if he locked them down there.
-Key_Card_Power_B02_Desc,Looks like an old entry card. It written Power Relay Access.
+Key_Card_Power_B02_Desc,Looks like an old entry card. 'Power Relay Access' is printed on the front.
 Key_Card_006_DescKey,Undefined
 Key_Card_007_DescKey,Undefined
 Key_Card_008_DescKey,Undefined
 Key_Card_009_DescKey,Undefined
 Key_Card_010_DescKey,Undefined
 RiotShield_NameKey,Riot Shield
-RiotShield_DescKey,It's a shield used to suppress people by force.
+RiotShield_DescKey,It's a shield used .
 Improvised_Shield_NameKey,Primitive Wood Shield
-Improvised_Shield_DescKey,It's a Primitive Wood Shield
+Improvised_Shield_DescKey,It's basically just a plank of sturdy wood.
 Shield_002_NameKey,Primitive Shield
-Shield_002_DescKey,It's a Primitive Shield
-ReactorCore_Level2_Upgrade_Blueprint,Blue print Research Complete 1 time
+Shield_002_DescKey,It's a plank of wood with a little more reinforcement.
+ReactorCore_Level2_Upgrade_Blueprint,Blueprint Research Complete 1 time
 Shabby_Mob,Shabby Mob
 Shabby_Kitchen_Knife,Rusty Kitchen Knife
 Shabby_Mob_Desc,"An old, shabby mop. It'd probably make the place dirtier if it were actually used for cleaning. "
@@ -94,13 +94,13 @@ Shabby_Kitchen_Knife_Desc,"An old, rusty kitchen knife. Hopefully Alp hasn't bee
 MakeShift_Reaper_NameKey,Makeshift Reaper
 MakeShift_Reaper_DescKey,Some old blade that was improvised into a dagger.
 Crowbar_NameKey,Crowbar
-Crowbar_DescKey,"It looks a bit old, but it's still sturdy. "
+Crowbar_DescKey,"It looks a bit old, but it's still sturdy."
 Rusty_Long_Pipe_NameKey,Rusty long pipe
 Rusty_Long_Pipe_DescKey,"Old and rusty, but still plenty usable. Usable for combat, that is; not really for water. "
 MakeShift_Felling_Axe_NameKey,Makeshift Felling Axe
-MakeShift_Felling_Axe_DescKey,"It is a large two-handed axe that can cut down trees, but it is used to cut down other than trees in the Subhounds camp."
+MakeShift_Felling_Axe_DescKey,"It's a large, two-handed axe that can cut down trees, but, in Huygen Camp, it's used to cut down other things instead."
 Pickaxe_NameKey,Pickaxe
-Pickaxe_DecsKey,A standard pickaxe that miners use. Having this around should make mining more efficient.
+Pickaxe_DecsKey,A standard pickaxe that miners use. Keeping this in hand should make mining more efficient.
 Blood_Extract_NameKey,Blood Extract
 Blood_Extract_DescKey,A material that's been extracted from a creature's blood. It could be useful for producing something. 
 Osseous_Extract_NameKey,Osseous Extract
@@ -109,8 +109,8 @@ Tissue_Extract_NameKey,Tissue Extract
 Tissue_Extract_DescKey,A material that's been extracted from a creature's tissue. It could be useful for producing something. 
 Shell_Extract_NameKey,Shell Extract
 Shell_Extract_DescKey,A material that's been extracted from a creature's exoskeleton. It could be useful for producing something. 
-Rat_Tail_NameKey,Tail of Rat
-Rat_Tail_DescKey,It is the tail remains of Rat. You can't possibly eat this raw.
+Rat_Tail_NameKey,Rat Tail
+Rat_Tail_DescKey,It's the tail of a deceased rat. You can't possibly eat this raw.
 Methane_Fuel_NameKey,Methane Fuel
 Methane_Fuel_DescKey,Essential methane fuel that's used to generate power at the camp's generator. 
 Phytochemical_NameKey,Phytochemical
@@ -128,7 +128,7 @@ Broken_Fuse_DescKey,A broken power relay fuse.
 Broken_AirFilter_NameKey,Broken Air Filter
 Broken_AirFilter_DescKey,"A filter for air circulators, except it's broken. "
 Election_NameKey,Electronics
-Election_DescKey,"Some loose components from some broken electronics. Hopefully, the others know how to work with these. "
+Election_DescKey,"Some loose components from broken electronics. Hopefully the others know how to work with these. "
 Fiber_NameKey,Fiber
 Fiber_DescKey,"Scraps of cloth from old clothes and the like. They're hardly clean, but the camp can't exactly afford the luxury. "
 Machine_NameKey,Machinery 
@@ -138,7 +138,7 @@ Metal_DescKey,Rusty scraps of metal from useless old tools. They can surely be r
 Plastic_NameKey,Plastic
 Plastic_DescKey,"Recycling is even more important when we're stranded on this rock. Even if someone can make more, how much power would it cost us? "
 Wood_NameKey,Wood
-Wood_DescKey,It's still hard to believe there are plants in Titan. Any usable wood is composited from various native plants. 
+Wood_DescKey,It's still hard to believe there are plants on Titan. Any usable wood is composited from various native plants. 
 Junk_Election_Dummy,Broken Recorder 
 Junk_Election_Dummy_Desc,Some sort of recording device. Both it and its records are broken beyond use.
 Junk_Fiber_Dummy,Rags 
@@ -353,7 +353,7 @@ Prototype_Club_Desc,An experimental bludgeon that Judith is working on. It almos
 Advanced_Club_Desc,The finished project of Judith and a force to be reckoned with. It looks like it could flip a tank if it wanted to.
 MakeShift_Axe_Desc,"Sharp metal tied firmly to the end of a strong stick. A long, long time ago, this could've been the work of a genius."
 Standard_Axe_Desc,"Sharp metal on a stick, perfect for chopping through unarmored enemies."
-Improved_Axe_Desc,Sharper metal on a stick. Judith really outdid Herself with this one.
+Improved_Axe_Desc,Sharper metal on a stick. Judith really outdid herself with this one.
 Prototype_Axe_Desc,"Judith thinks that extra kinetic energy can be applied with this new stuff? Not sure, but it looks like it'll hurt anything that gets hit."
 Advanced_Axe_Desc,"An axe with so much high-tech nonsense that it looks like it could cut anything in half, like a bargain shop salesman."
 MakeShift_Hammer_Desc,A blunt rock tied very firmly to the end of a strong stick. It's incredible that the rock doesn't come loose.
@@ -381,18 +381,18 @@ Standard_Shield_Desc,A refurbished sheet of metal that should block most hits pr
 Improved_Shield_Desc,"A sturdier shield that resembles a riot shield, and is probably just as tough to get through."
 Prototype_Shield_Desc,A shield with some experimental... things... on it that make the shield... probably better?
 Advanced_Shield_Desc,"No idea what was done to this shield, but it seems tougher than some of the walls around here."
-Sword_MakeShift_BluePrint,Blueprint : Rusty Sword
-Club_MakeShift_BluePrint,Blueprint : Duct-Taped Club
-Axe_MakeShift_BluePrint,Blueprint : Stick with Sharp Rock
-Hammer_MakeShift_BluePrint,Blueprint : Stick with Blunt Rock
-Shield_MakeShift_BluePrint,Blueprint : Flimsy Shield
-Bow_MakeShift_BluePrint,Blueprint : Loose Bow
-Pistol_MakeShift_BluePrint,Blueprint : Handmade Pistol
-Rifle_MakeShift_BluePrint,Blueprint : Handmade Rifle
-Head_MakeShift_BluePrint,Blueprint : Battered Helmet
-Body_MakeShift_BluePrint,Blueprint : Old Body Armor
-Hand_MakeShift_BluePrint,Blueprint : Used Gloves
-Foot_MakeShift_BluePrint,Blueprint : Combat Boots
+Sword_MakeShift_BluePrint,Blueprint: Rusty Sword
+Club_MakeShift_BluePrint,Blueprint: Duct-Taped Club
+Axe_MakeShift_BluePrint,Blueprint: Stick with Sharp Rock
+Hammer_MakeShift_BluePrint,Blueprint: Stick with Blunt Rock
+Shield_MakeShift_BluePrint,Blueprint: Flimsy Shield
+Bow_MakeShift_BluePrint,Blueprint: Loose Bow
+Pistol_MakeShift_BluePrint,Blueprint: Handmade Pistol
+Rifle_MakeShift_BluePrint,Blueprint: Handmade Rifle
+Head_MakeShift_BluePrint,Blueprint: Battered Helmet
+Body_MakeShift_BluePrint,Blueprint: Old Body Armor
+Hand_MakeShift_BluePrint,Blueprint: Used Gloves
+Foot_MakeShift_BluePrint,Blueprint: Combat Boots
 Sword_MakeShift_BluePrint_Desc,"If this blueprint is researched, then Rusty Swords can be produced."
 Club_MakeShift_BluePrint_Desc,"If this blueprint is researched, then Duct-Taped Clubs can be produced."
 Axe_MakeShift_BluePrint_Desc,"If this blueprint is researched, then Sticks with Sharp Rocks can be produced. Can't believe they need a blueprint of this..."
@@ -462,7 +462,7 @@ Slug_Slime_Desc,"The few bits of a dangerous slug that could be salvaged. If it'
 Beetle_Shell,Beetle Shell
 Beetle_Shell_Desc,"The battered shell of a large, combative beetle. It's still very durable, so it should prove to be useful."
 Antidotes_001,Antitoxin
-Antidotes_001_Desc,"Medication that should quickly neutralize most known, dangerous toxins. Hopefully, the wildlife here didn't create brand new toxins."
+Antidotes_001_Desc,"Medication that should quickly neutralize most known, dangerous toxins. Hopefully the wildlife here didn't create brand new toxins."
 Antidotes_002,Titan Antitoxin
 EnergyDrink_001,Energy Drink
 Nano_Charger_001,Nanobot Booster
@@ -478,7 +478,7 @@ WardCharger_001,Ward Charger
 WardCharger_001_Desc,"A small unit that can be used to charge my Ward. I'll need all the protection I can get, no matter how temporary."
 Antidotes_002_Desc,Antitoxin that's specially made for the toxins that the wildlife on Titan use. It should neutralize toxins much faster than the generalized antitoxin.
 EnergyDrink_001_Desc,"An energy drink that TECC started manufacturing, just to stop employees from using exhaustion as an excuse. Naturally, it tastes beyond awful."
-Nano_Charger_001_Desc,"A syringe full of... something. Something that energizes nanobots so that they keep working, like the TECC energy drink but for tiny machines."
+Nano_Charger_001_Desc,"A syringe full of... something. Something that energizes nanobots so that they keep working, like the TECC energy drink but for the tiny machines in my body."
 Nano_Medicine_001_Desc,An injection of a substance that disables harmful nanobots while ignoring the native nanobots that aren't harmful.
 Nano_Medicine_002_Desc,An item that treats nano-pollution.
 RepairKit_001_Desc,"A general-use toolkit that has plenty of tools for repairing damaged equipment, like armor and weapons."
@@ -500,11 +500,11 @@ Ore_Copper_Desc,Copper that was mined from the caves below. It can be Recycled i
 Ore_Nickel_Desc,Nickel that was mined from the caves below. It can be Recycled into Refined Nickel.
 Ore_ilmenite_Desc,Ilmenite that was mined from the caves below. It can be Recycled into Refined Titanium.
 Ore_Petalite_Desc,Petalite that was mined from the caves below. It can be Recycled into Refined Lithium.
-Refined_Iron_Desc,Refined iron ore. This should be useful for crafting certain items.
-Refined_Copper_Desc,Refined copper ore. This should be useful for crafting certain items.
-Refined_Nickel_Desc,Refined nickel. This should be useful for crafting certain items.
-Refined_Titanium_Desc,Refined ilmenite. This should be useful for crafting certain items.
-Refined_Lithium_Desc,Refined petalite. This should be useful for crafting certain items.
+Refined_Iron_Desc,Refined iron ore. This should be useful for Crafting certain items.
+Refined_Copper_Desc,Refined copper ore. This should be useful for Crafting certain items.
+Refined_Nickel_Desc,Refined nickel. This should be useful for Crafting certain items.
+Refined_Titanium_Desc,Refined ilmenite. This should be useful for Crafting certain items.
+Refined_Lithium_Desc,Refined petalite. This should be useful for Crafting certain items.
 Rope,Rope
 Carrot,Carrot
 Chill,Chills
@@ -521,8 +521,8 @@ Potato_Desc,"Some potatoes that the farmer, Seoyeon, grows and sells."
 Pumpkin_Desc,"A pumpkin that the farmer, Seoyeon, grows and sells."
 Sweet_Potato_Desc,"Some sweet potatoes that the farmer, Seoyeon, grows and sells."
 Tomato_Desc,"A tomato that the farmer, Seoyeon, grows and sells."
-Judith_Note,Judith's Note
-Judith_Note_Desc,"This must be the notes that Judith is looking for. She wrote it in such a rush that it's illegible, and the bits that are legible are confusing."
+Judith_Note,Judith's Notes
+Judith_Note_Desc,"These must be the notes that Judith is looking for. She wrote them in such a rush that they're illegible, and the bits that are legible are confusing."
 Junk_2x1_W_Icon_001,Composite Wood
 Junk_1x2_MA_Icon_001,Automaton Scrap
 Junk_1x1_E_Icon_001,Radio Scrap
@@ -563,7 +563,7 @@ Junk_1x1_E_Icon_002_Desc,"Some sort of handheld device, possibly a dedicated cal
 Junk_1x1_E_Icon_003_Desc,"A handheld radio. At a glance, it looks relatively untouched, but none of the buttons do anything, so it should probably go to the recycler."
 Junk_1x1_E_Icon_004_Desc,An old-fashioned camera. How odd that one of these would be on Titan. One of the camp people must enjoy old photography.
 Junk_1x1_E_Icon_005_Desc,"A very old handheld video game device. Even if it wasn't broken, the batteries are probably dead, and batteries are rare to come across these days."
-Junk_1x1_E_Icon_006_Desc,"A device that is mostly screen, so it was probably a monitor or touch device of some sort. Either way, the screen is cracked and nonfunctional."
+Junk_1x1_E_Icon_006_Desc,"A device that is mostly occupied by a screen, so it was probably a monitor or touch device of some sort. Either way, the screen is cracked and nonfunctional."
 Junk_1x1_MA_Icon_001_Desc,This blender got really abused. One can only imagine what it was blending when it became like this.
 Junk_1x1_MA_Icon_002_Desc,An extremely grimy and nonfunctioning toaster. Maybe someone tried putting toast in it instead of bread.
 Junk_1x1_MA_Icon_003_Desc,"A mostly destroyed hand mixer. With how desperate the current camp is with supplies, having a hand mixer feels like a luxury."
@@ -571,7 +571,7 @@ Junk_1x1_MA_Icon_004_Desc,"Some sort of cutter, possibly for deli meat or someth
 Junk_1x1_MA_Icon_005_Desc,"A kitchen appliance of some kind, maybe for compressing stuff. Regardless, it's going to get compressed itself soon."
 Junk_1x1_MA_Icon_006_Desc,"This appears to be a battery or power pack for a large yet portable device. It's clearly aged, so any battery it may have had is likely gone already."
 Junk_1x1_MA_Icon_007_Desc,A decrepit grass cutter. It's weird that this is here... Maybe someone was really optimistic about the whole terraforming plan.
-Junk_1x1_MA_Icon_008_Desc,"I'm hardly an engineer, but this looks like part of an engine. No idea what the engine would go to, but this component seems inoperable, anyway. I'm sure Judith can make sense (or materials) out of it."
+Junk_1x1_MA_Icon_008_Desc,"I'm hardly an engineer, but this looks like part of an engine. No idea what the engine would go to, but this component seems inoperable, anyway. I'm sure Judith can make sense or materials out of it."
 Junk_1x1_MA_Icon_009_Desc,No idea what this is. It doesn't matter too much considering it's only good for recycling now.
 Junk_1x1_MA_Icon_010_Desc,"A pretty small handheld drill. At least, it was a drill before the tip was completely torn off."
 Junk_1x1_MA_Icon_011_Desc,"It seems to be some sort of device, but it won't do anything anymore, so it's only good for recycling now."
@@ -579,7 +579,7 @@ Junk_1x1_MA_Icon_013_Desc,One of those syringes with a neat ergonomic handle.
 Junk_1x1_MA_Icon_014_Desc,"An old saw with a rusty, dull blade that would probably sooner tear something apart before it ever gets cut."
 Junk_1x1_MA_Icon_015_Desc,"A relatively intact microscope. The camp should already have one, if it needs one at all, so this should probably just be recycled for now."
 Junk_1x1_MA_Icon_020_Desc,"A beat-up pump, probably for air or some other gas. This might have been useful for refilling the oxygen canisters, but of course it's damaged beyond repair."
-Junk_1x1_MA_Icon_021_Desc,An old-fashioned electric drill. Very damaged and inoperational and eligible for being recycled into machinery materials.
+Junk_1x1_MA_Icon_021_Desc,An old-fashioned electric drill. Very damaged and inoperable and eligible for being recycled into machinery materials.
 Junk_1x1_MA_Icon_022_Desc,"A workshop clamp. It could maybe still work in its condition, but I don't think there's a workshop in the camp, anyway."
 Junk_1x1_MA_Icon_023_Desc,"A small, handheld, portable vacuum. Maybe the trash that it sucked up will provide some extra material."
 Junk_1x1_MA_Icon_024_Desc,A broken hair dryer. Very useless outside of the recycler.

@@ -1,11 +1,10 @@
 Language,Default
-Game_Title,Subterrain 2
+Game_Title,Subterrain: Mines of Titan
 GameLoader_EarlyStage,This game is in the early stages of development.\nFeatures and design are subject to change.
 Demo_Title,Demo
-Demo_Desc,"Thanks for playing Subterrain Mines of Titan Demo!\nYou are still able to freely continue playing, but access to the deeper levels of the game is not available in the demo.\n\nPlease follow us at Steam community and Discord channel and help us to make even better game!"
-Demo_Steam,Subterrain Mines of Titan Steam Forum
-Demo_Discord,Subterrain Mines of Titan Discord Channel
-Thank you!
+Demo_Desc,"Thanks for playing the Subterrain: Mines of Titan Demo!\nYou are still free to continue playing, but access to the deeper levels of the game is not available in the demo.\n\nPlease follow us on Steam and Discord and help us make an even better game!"
+Demo_Steam,Subterrain: Mines of Titan Steam Forum
+Demo_Discord,Subterrain: Mines of Titan Discord Channel
 GameOver,You Are Dead!
 GameOver_TotalTurn,Total Turns
 Menu_NewGame,New Game
@@ -33,7 +32,8 @@ Slot06,Slot 06
 Slot07,Slot 07
 Slot08,Slot 08
 Slot09,Slot 09
-SlotQuick,Quick
+SlotQuick,Quick Save
+SlotAuto,Auto Save
 SlotEmpty,Empty
 Settings_Title,Settings
 Settings_MasterVolume_Title,Master Volume
@@ -52,7 +52,15 @@ Settings_FullScreen_Title,Full Screen
 Settings_FullScreen_On,On
 Settings_FullScreen_Off,Off
 Settings_UIScale_Title,UI Scale
-Settings_GameScale_Title,In Game Scale
+Settings_GameScale_Title,In-Game Scale
+Settings_AutoSave_Title,Auto Save
+Settings_AutoSave_Disabled,Disabled
+Settings_AutoSave_Stage1,Every 400 Turns
+Settings_AutoSave_Stage2,Every 600 Turns
+Settings_AutoSave_Stage3,Every 800 Turns
+Settings_AutoSave_Stage4,Every 1000 Turns
+Settings_AutoSave_Stage5,Every 1200 Turns
+Settings_AutoSave_Stage6,Every 1400 Turns
 Button_Apply,Apply
 Button_Cancel,Cancel
 Button_Reset,Reset
@@ -98,7 +106,7 @@ KeyboardControl_ToggleLight,Lamp
 KeyboardControl_WeaponSwap,Weapon Swap
 KeyboardControl_InventoryQuickMove,Item Quick Take/Put
 KeyboardControl_InventoryDrop,Item Force Drop
-KeyboardControl_InventorySplit,Item Split
+KeyboardControl_InventorySplit,Split Item Stack
 KeyboardControl_InventoryScanGround,Scan Ground
 KeyboardControl_InventoryTakeAll,Take All
 KeyboardControl_Info,Information
@@ -133,20 +141,20 @@ Popup_Inventory_TakeAll,Take All
 Popup_Inventory_Bartering,Bartering
 Popup_Stat_Level,Character Level
 Popup_Stat_Exp,Exp
-Popup_Stat_Next_Exp,Next Level Exp
+Popup_Stat_Next_Exp,Exp to Next Level
 Popup_Settings,Settings
 Popup_Map,Map
 Popup_Elevator,Lift
 Popup_Production,Production
 Popup_CampManagement,Camp Management
-Omniscope_Inventory,Inventory(I)
-Omniscope_Stat,Stat(P)
-Omniscope_Perk,Perk(K)
-Omniscope_Map,Map(M)
-Omniscope_Journal,Journal(J)
-Omniscope_Production,Production(N)
-Omniscope_CampManagement,Camp Management(O)
-Omniscope_Setting,Setting(ESC)
+Omniscope_Inventory,Inventory (I)
+Omniscope_Stat,Stats (P)
+Omniscope_Perk,Perks (K)
+Omniscope_Map,Map (M)
+Omniscope_Journal,Journal (J)
+Omniscope_Production,Production (N)
+Omniscope_CampManagement,Camp Management (O)
+Omniscope_Setting,Setting (ESC)
 Success,Success
 Fail,Fail
 Depleted,Depleted
@@ -214,15 +222,15 @@ Map_MapInformation,Area Information
 Window_Open,Open
 Window_Close,Close
 Default_Unarmed,Unarmed Basic Attack
-Default_OneHand_M,One hand Melee Basic Attack
+Default_OneHand_M,One-Handed Melee Basic Attack
 Default_OneHand_R,Pistol Basic Attack
 Default_TwoHand_M,Rifle Basic Attack
 Default_Unarmed_Desc,Basic attack when no weapons are present or Unarmed Weapon.
-Default_OneHand_M_Desc,This is a basic attack when you equip a One Hand Melee weapon.
-Default_OneHand_R_Desc,This is a basic attack when you equip a One Hand Range weapon.
-Default_TwoHand_M_Desc,This is a basic attack when you equip a Two Hand Melee weapon.
+Default_OneHand_M_Desc,This is a basic attack when you equip a One-Handed Melee weapon.
+Default_OneHand_R_Desc,This is a basic attack when you equip a One-Handed Range weapon.
+Default_TwoHand_M_Desc,This is a basic attack when you equip a Two-Handed Melee weapon.
 Perk_Name,Perk Name
-Perk_Point,Perk Point
+Perk_Point,Perk Points
 Perk_Locked,Locked
 Perk_Cost,Cost
 Perk_Cost_Nano,Nano
@@ -257,8 +265,8 @@ Base_Value,Base Value
 LevelUp,Level Up!
 ProficiencyLevelUp,Proficiency Level Up!
 Tracking_Start,Tracking
-Tracking_Complete,Tracking Complete.
-Tracking_Failed,Tracking Failed. Unable to find path.
+Tracking_Complete,Tracking complete.
+Tracking_Failed,Tracking failed. Unable to find path.
 Strength_Key,Strength
 Agility_Key,Agility
 Endurance_Key,Endurance
@@ -270,7 +278,7 @@ HealthRegen_Key,Health Regen
 NanoRegen_Key,Nano Regen
 adrenaline_Key,Adrenaline
 maxAdrenaline_Key,Max Adrenaline
-PhysicsDamage_Key,Physics Damage
+PhysicsDamage_Key,Physical Damage
 PhysicsBasicDamage_Key,Damage
 AcidDamage,Acid Damage
 burnDamage,Burn Damage
@@ -321,7 +329,7 @@ WeaponReloaded,Weapon Reloaded
 WeaponAmmoCapacity,Ammo Capacity
 WeaponOutOfAmmo,Out of ammo
 WeaponOutOfArrow,Out of arrows
-NotEnoughCredit,Not enough credit
+NotEnoughCredit,Not enough credits.
 ItemEmpty,Empty
 Speech_stats_thirst_1,I could use a drink.
 Speech_stats_thirst_2,I'm pretty thirsty.
@@ -354,7 +362,7 @@ Speech_UnableToSleepCombat,I can't sleep right now.\nI hear something nearby.
 Speech_Inventory_Full,My inventory is full.
 Speech_DuplicatedItemTypeUsage,I can't use that right now.\nI have already used the same type of item recently.
 Speech_NoNeedToSleep,I don't need to sleep right now.\nI am not sleepy or tired at the moment.
-Speech_EndOfDemo,It's not working...\nIt seems like this world is limited by some mysterious force called ''Demo''.\nPlease consider supporting full game in the future!
+Speech_EndOfDemo,It's not working...\nIt seems like this world is limited by some mysterious force called ''Demo''.\nPlease consider supporting the full game in the future!
 Trait_FirstAid,Healing Health
 Trait_Cold_01,Shivering
 Trait_Cold_02,Chilly
@@ -366,17 +374,17 @@ Trait_Heat_02,Fever
 Trait_Heat_03,High Fever
 Trait_Heat_04,Heat Syncope
 Trait_Heat_05,Heat Stroke
-Trait_FirstAid_Desc,The state to Heal Health ??Use first aid kit
+Trait_FirstAid_Desc,You are healing health.
 Trait_Cold_01_Desc,You feel cold and your body is shaking.
-Trait_Cold_02_Desc,Your body is trembling more and Your muscles seem to be tense.
+Trait_Cold_02_Desc,Your body is trembling more and your muscles seem to be tense.
 Trait_Cold_03_Desc,"Your body temperature is getting lower, and consciousness is getting blurry."
 Trait_Cold_04_Desc,You can't even feel the cold anymore.
 Trait_Cold_05_Desc,You'll soon freeze to death! Find a warm place or food!
-Trait_Heat_01_Desc,Prickly heat are forming everywhere.
-Trait_Heat_02_Desc,Your forehead is hot. You think You're running a fever.
-Trait_Heat_03_Desc,Your body is like a fireball. Consciousness is getting blurry.
+Trait_Heat_01_Desc,Heat is prickling at your body.
+Trait_Heat_02_Desc,Your forehead is hot. You think you're running a fever.
+Trait_Heat_03_Desc,Your body is like a fireball. Your vision is getting blurry.
 Trait_Heat_04_Desc,You're exhausted. It's also hard to move.
-Trait_Heat_05_Desc,"At this rate, you will die of heatstroke soon. Find a cool place or food!"
+Trait_Heat_05_Desc,"At this rate, you will die of heatstroke soon. Find a cool place or cold food!"
 Trait_Aggressive_Lv1_Desc,"Even if you get hurt, you are prepared to do more damage to your opponent."
 Trait_Aggressive_Lv2_Desc,"Even if you get hurt, you are prepared to do more damage to your opponent."
 Trait_Aggressive_Lv3_Desc,"Even if you get hurt, you are prepared to do more damage to your opponent."
@@ -392,9 +400,9 @@ Trait_PofGreeting_Lv3_Desc,The greeting of savage pirates begins by putting thei
 Trait_Trigger_Lv1_Desc,Turn the trigger back and aim for more accurately lethal areas.
 Trait_Trigger_Lv2_Desc,Turn the trigger back and aim for more accurately lethal areas.
 Trait_Trigger_Lv3_Desc,Turn the trigger back and aim for more accurately lethal areas.
-Trait_Fboundary_Lv1_Desc,"If you're wary in advance, You'll be able to hit the enemy squarely."
-Trait_Fboundary_Lv2_Desc,"If you're wary in advance, You'll be able to hit the enemy squarely."
-Trait_Fboundary_Lv3_Desc,"If you're wary in advance, You'll be able to hit the enemy squarely."
+Trait_Fboundary_Lv1_Desc,"If you're wary in advance, you'll be able to hit the enemy squarely."
+Trait_Fboundary_Lv2_Desc,"If you're wary in advance, you'll be able to hit the enemy squarely."
+Trait_Fboundary_Lv3_Desc,"If you're wary in advance, you'll be able to hit the enemy squarely."
 Trait_Slaughterer_Lv1_Desc,It would be very dangerous if you were attacked incorrectly by a slaughterer. (Slaughterer is more professional than anyone else in handling 'meat'.)
 Trait_Slaughterer_Lv2_Desc,It would be very dangerous if you were attacked incorrectly by a slaughterer. (Slaughterer is more professional than anyone else in handling 'meat'.)
 Trait_Slaughterer_Lv3_Desc,It would be very dangerous if you were attacked incorrectly by a slaughterer. (Slaughterer is more professional than anyone else in handling 'meat'.)
@@ -411,13 +419,13 @@ State_Poison,Poison
 State_NanoInfection,Nano Infection
 StateResult_Fracture,Fracture! Unable to move!
 StateResult_Disoriented,Disoriented!
-StateResult_Jammed,Weapon Jammed!
+StateResult_Jammed,Weapon jammed!
 Trait_Acid_01,Acid Corrosion Lv1
-Trait_Acid_01_Desc,Acid corrosion and by the attack.
+Trait_Acid_01_Desc,Acid is covering your body.
 Trait_Acid_02,Acid Corrosion Lv2
-Trait_Acid_02_Desc,Acid corrosion and by the attack.
+Trait_Acid_02_Desc,Acid is covering your body.
 Trait_Acid_03,Acid Corrosion Lv3
-Trait_Acid_03_Desc,Acid corrosion and by the attack.
+Trait_Acid_03_Desc,Acid is covering your body.
 Trait_Heat_01,Burn Lv1
 Trait_Heat_01_Desc,You were burned by high heat.
 Trait_Heat_02,Burn Lv2
@@ -425,23 +433,23 @@ Trait_Heat_02_Desc,You were burned by high heat.
 Trait_Heat_03,Burn Lv3
 Trait_Heat_03_Desc,You were burned by high heat.
 Trait_Cold_01,Frostbite Lv1
-Trait_Cold_01_Desc,The frostbite was caused by strong cold air.
+Trait_Cold_01_Desc,Extremely cold air has frostbitten your flesh.
 Trait_Cold_02,Frostbite Lv2
-Trait_Cold_02_Desc,The frostbite was caused by strong cold air.
+Trait_Cold_02_Desc,Extremely cold air has frostbitten your flesh.
 Trait_Cold_03,Frostbite Lv3
-Trait_Cold_03_Desc,The frostbite was caused by strong cold air.
+Trait_Cold_03_Desc,Extremely cold air has frostbitten your flesh.
 Trait_NanoInfection_01,Nano Infection Lv1
-Trait_NanoInfection_01_Desc,It's dangerous because it's infected with nano.
+Trait_NanoInfection_01_Desc,It's dangerous because it's infected with nanobots.
 Trait_NanoInfection_02,Nano Infection Lv2
-Trait_NanoInfection_02_Desc,It's dangerous because it's infected with nano.
+Trait_NanoInfection_02_Desc,It's dangerous because it's infected with nanobots.
 Trait_NanoInfection_03,Nano Infection Lv3
-Trait_NanoInfection_03_Desc,It's dangerous because it's infected with nano.
+Trait_NanoInfection_03_Desc,It's dangerous because it's infected with nanobots.
 Trait_Poison_01,Poison Lv1
-Trait_Poison_01_Desc,You're addicted to poison.
+Trait_Poison_01_Desc,You're afflicted by poison.
 Trait_Poison_02,Poison Lv2
-Trait_Poison_02_Desc,You're addicted to poison.
+Trait_Poison_02_Desc,You're afflicted by poison.
 Trait_Poison_03,Poison Lv3
-Trait_Poison_03_Desc,You're addicted to poison.
+Trait_Poison_03_Desc,You're afflicted by poison.
 Activate_Condition_Type,Type
 Activate_Condition_Type_Always,Always
 Activate_Condition_Type_Attack,On Attack
@@ -465,16 +473,16 @@ CharacterTaskState_Wandering,Wandering
 Day,Day {0}
 TurnDuration,Duration
 TurnActivate,Activate Turn
-TurnCoolDown,Cool Down
+TurnCoolDown,Cooldown
 PerTurn,/Turn
-AdditionalDamage,Additional Damages
+AdditionalDamage,Other Damage Types
 Exp_Key,Experience
 Health_Key,Health
 Max_Health_Key,Max Health
 Nano_Energy_Key,Nano Energy
 Nano_Max_Energy_Key,Max Nano Energy
-WardPoint,Ward Point
-Max_WardPoint_Key,Ward Point
+WardPoint,Ward Points
+Max_WardPoint_Key,Ward Points
 Hunger_Key,Hunger
 Thirst_Key,Thirst
 Sleepness_Key,Sleepiness
@@ -541,12 +549,12 @@ Injuried_Value,Injury
 Fracture_Value,Fracture
 Poison_Value,Poison
 NanoInfection_Value,Nano Infection
-minKnockBack,Min Knock-back Damage
-maxKnockBack,Max Knock-back Damage
-knockBackResistance,Knock-back Resistance
+minKnockBack,Min Knockback Damage
+maxKnockBack,Max Knockback Damage
+knockBackResistance,Knockback Resistance
 adrenalineRate,Adrenaline Rate
 wardPointRate,Ward Point Regen
-arrowRecoveryChance,Arrow Retrieval Chance
+arrowRecoveryChance,Arrow Recovery Chance
 reloadBonus,Pistol Reload Bonus
 Oxygen_Value,Asphyxiation
 basicDamage,Physical Damage
@@ -555,13 +563,13 @@ basicMaxDamage,Max Physical Damage
 meleeDamage,Melee Damage
 meleeMinDamage,Min Melee Damage
 meleeMaxDamage,Max Melee Damage
-knockbackDamage,Knock-back Damage
-minKnockback,Min Knock-back Damage
-maxKnockback,Max Knock-back Damage
+knockbackDamage,Knockback Damage
+minKnockback,Min Knockback Damage
+maxKnockback,Max Knockback Damage
 acidDamage,Acid Damage
 acidMinDamage,Min Acid Damage
 acidMaxDamage,Max Acid Damage
-knockback_Resistance,Knock-back Resistance
+knockback_Resistance,Knockback Resistance
 attackDisableChance,Jamming Chance
 Combat_Attack,Attack
 State_Stat,State

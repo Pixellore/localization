@@ -71,7 +71,7 @@ State_Poison_01,Light Poison
 State_Poison_02,Poison
 State_Poison_03,Serious Poison
 State_Poison_01_Desc,You were mildly poisoned. Your body should eventually expel it but it'll take a while. An antidote would help you recover faster.
-State_Poison_02_Desc,"You're feeling a bit woozy, somewhat light-headed and poisoned."
+State_Poison_02_Desc,"You're feeling a bit woozy, somewhat light-headed, and poisoned."
 State_Poison_03_Desc,There's more poison in your veins than blood. You should get an antidote in there.
 State_Down,Down
 State_Down_Desc,You've been knocked down! Moving and attacking is impossible!
@@ -93,73 +93,73 @@ State_Acid_03,Serious Acid
 State_Acid_01_Desc,There's acid on your body and it's eating away at your equipment (or flesh). You should look for something to neutralize it.
 State_Acid_02_Desc,You have acid covering a lot of your body. Your maintenance costs are skyrocketing.
 State_Acid_03_Desc,You're practically soaked in acid. You need to neutralize it.
-Restore_Food_Key,Eat Food
+Restore_Food_Key,Ah, sustenance!
 Restore_Food_Desc_Key,Hunger is decreasing because you ate food.
 Restore_Water_Desc_Key,Thirst is decreasing because you drank water.
 Restore_Health_Desc_Key,Your health is recovering faster than usual.
 FractureDamage,Fracture Damage
 OHM_P_Mastery,One-Handed Melee Mastery
-OHM_P_Mastery_Desc,"While using a One-Handed Melee Weapon, your 'Melee Accuracy' and 'Dodge Chance' are increased while your 'Fumble Chance' is decreased."
+OHM_P_Mastery_Desc,"While using a One-Handed Melee Weapon, your Melee Accuracy and Dodge Chance are increased while your Fumble Chance is decreased."
 OHM_P_CounterAttack,Counter Attack
 OHM_P_CounterAttack_Desc,Prepare for a chance to counterattack.
 OHM_P_Block,Shield Mastery
-OHM_P_Block_Desc,"While using a Shield, your blocks are more frequent and reduce more damage."
-OHM_P_Block_Desc_001,<sprite name="blockChance_Icon"><#a5eaff>Block Chance + 3%</color>\n<sprite name="blockPower_Icon"><#a5eaff>Block Power + 3</color>
-OHM_P_Block_Desc_002,<sprite name="blockChance_Icon"><#a5eaff>Block Chance + 7%</color>\n<sprite name="blockPower_Icon"><#a5eaff>Block Power + 5</color>
-OHM_P_Block_Desc_003,<sprite name="blockChance_Icon"><#a5eaff>Block Chance + 11</color>\n<sprite name="blockPower_Icon"><#a5eaff>Block Power + 7</color>
+OHM_P_Block_Desc,"While using a Shield, your Block Chance and Block Power are increased."
+OHM_P_Block_Desc_001,<sprite name="blockChance_Icon"><#a5eaff>+3% Block Chance</color>\n<sprite name="blockPower_Icon"><#a5eaff>+3 Block Power</color>
+OHM_P_Block_Desc_002,<sprite name="blockChance_Icon"><#a5eaff>+7% Block Chance</color>\n<sprite name="blockPower_Icon"><#a5eaff>+5 Block Power</color>
+OHM_P_Block_Desc_003,<sprite name="blockChance_Icon"><#a5eaff>+11% Block Chance</color>\n<sprite name="blockPower_Icon"><#a5eaff>+7 Block Power</color>
 OHM_A_ShieldAttack,Shield Bash
 OHM_A_ShieldAttack_Desc,"Bash your shield into your target, dealing damage with a chance to Stun."
-OHM_A_ShieldAttack_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Decrease Min~Max Damage by 70%</color>\n<sprite name="MeleeAccuracy_Icon"><#a5eaff>Melee Accuracy +10%</color>\n<sprite name="Stun_icon"></font><#a5eaff>Min~Max Knock-back Damage +9~14</color>\nEffect : Target <sprite name="Stun_icon">Stun for 1 turn
-OHM_A_ShieldAttack_Desc_002,<sprite name="Damage_Icon"><#a5eaff>Decrease Min~Max Damage by 55%</color>\n<sprite name="MeleeAccuracy_Icon"><#a5eaff>Melee Accuracy +12%</color>\n<sprite name="Stun_icon"></font><#a5eaff>Min~Max Knock-back Damage +12~17</color>\nEffect : Target <sprite name="Stun_icon">Stun for 1 turn
-OHM_A_ShieldAttack_Desc_003,<sprite name="Damage_Icon"><#a5eaff>Decrease Min~Max Damage by 40%</color>\n<sprite name="MeleeAccuracy_Icon"><#a5eaff>Melee Accuracy +15%</color>\n<sprite name="Stun_icon"></font><#a5eaff>Min~Max Knock-back Damage +15~21</color>\nEffect : Target <sprite name="Stun_icon">Stun for 2 turn
+OHM_A_ShieldAttack_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Decrease Min & Max Damage by 70%</color>\n<sprite name="MeleeAccuracy_Icon"><#a5eaff>Melee Accuracy +10%</color>\n<sprite name="Stun_icon"></font><#a5eaff>Min & Max knockback Damage +9~14</color>\nEffect: Target <sprite name="Stun_icon">Stun for 1 turn
+OHM_A_ShieldAttack_Desc_002,<sprite name="Damage_Icon"><#a5eaff>Decrease Min & Max Damage by 55%</color>\n<sprite name="MeleeAccuracy_Icon"><#a5eaff>Melee Accuracy +12%</color>\n<sprite name="Stun_icon"></font><#a5eaff>Min & Max knockback Damage +12~17</color>\nEffect: Target <sprite name="Stun_icon">Stun for 1 turn
+OHM_A_ShieldAttack_Desc_003,<sprite name="Damage_Icon"><#a5eaff>Decrease Min & Max Damage by 40%</color>\n<sprite name="MeleeAccuracy_Icon"><#a5eaff>Melee Accuracy +15%</color>\n<sprite name="Stun_icon"></font><#a5eaff>Min & Max knockback Damage +15~21</color>\nEffect: Target <sprite name="Stun_icon">Stun for 2 turn
 OHM_A_CombinationAttack,Dash Combo
 OHM_A_CombinationAttack_Desc,Dash towards your target and strike it several times.
-OHM_A_CombinationAttack_Desc_001,<sprite name="Damage_Icon"></font><#a5eaff>Decrease Min~Max Damage by 30% Per Attack</color>\n\nMove Distance : 2 Tile\n\nAttack count : 2 times.
-OHM_A_CombinationAttack_Desc_002,<sprite name="Damage_Icon"></font><#a5eaff>Decrease Min~Max Damage by 25% Per Attack</color>\n\nMove Distance : 2 Tile\n\nAttack count : 3 times.
-OHM_A_CombinationAttack_Desc_003,<sprite name="Damage_Icon"></font><#a5eaff>Decrease Min~Max Damage by 20% Per Attack</color>\n\nMove Distance : 3 Tile\n\nAttack count : 3 times.
-OHM_A_CombinationAttack_Desc_004,<sprite name="Damage_Icon"></font><#a5eaff>Min~Max Damage No Change</color>\n\nMove Distance : 3 Tile\n\nAttack count : 4 times.
+OHM_A_CombinationAttack_Desc_001,<sprite name="Damage_Icon"></font><#a5eaff>Decrease Min & Max Damage by 30% Per Attack</color>\n\nMove Distance: 2 Tile\n\nAttack count: 2 times.
+OHM_A_CombinationAttack_Desc_002,<sprite name="Damage_Icon"></font><#a5eaff>Decrease Min & Max Damage by 25% Per Attack</color>\n\nMove Distance: 2 Tile\n\nAttack count: 3 times.
+OHM_A_CombinationAttack_Desc_003,<sprite name="Damage_Icon"></font><#a5eaff>Decrease Min & Max Damage by 20% Per Attack</color>\n\nMove Distance: 3 Tile\n\nAttack count: 3 times.
+OHM_A_CombinationAttack_Desc_004,<sprite name="Damage_Icon"></font><#a5eaff>Min & Max Damage No Change</color>\n\nMove Distance: 3 Tile\n\nAttack count: 4 times.
 OHM_A_SawshankBoomerang,Sawshank Boomerang
-OHM_A_SawshankBoomerang_Desc,Sawshank Boomerang.
+OHM_A_SawshankBoomerang_Desc,Sawshank Boomerang
 OHM_B_ReadyToCounter,Counter Stance
 OHM_B_ReadyToCounter_Desc,Prepare yourself to counter incoming attacks for a few turns.
-OHM_B_ReadyToCounter_Desc_001,<sprite name="Counter_Icon"><#a5eaff> Counter Chance +50% </color>\n  Duration : 2 Turn
-OHM_B_ReadyToCounter_Desc_002,<sprite name="Counter_Icon"><#a5eaff> Counter Chance +70% </color>\n  Duration : 2 Turn
-OHM_B_ReadyToCounter_Desc_003,<sprite name="Counter_Icon"><#a5eaff> Counter Chance +90% </color>\n  Duration : 2 Turn
+OHM_B_ReadyToCounter_Desc_001,<sprite name="Counter_Icon"><#a5eaff>+50% Counter Chance</color>\n Duration: 2 Turn
+OHM_B_ReadyToCounter_Desc_002,<sprite name="Counter_Icon"><#a5eaff>+70% Counter Chance</color>\n Duration: 2 Turn
+OHM_B_ReadyToCounter_Desc_003,<sprite name="Counter_Icon"><#a5eaff>+90% Counter Chance</color>\n Duration: 2 Turn
 OHM_B_ChargedAttack,Proper Footing
 OHM_B_ChargedAttack_Desc,Adjust your posture so you can put more force and direction into your swings without losing balance.
-OHM_B_ChargedAttack_Desc_001,<font="DefaultFont"><sprite name="Damage_Icon"></font><#a5eaff>Increase Min~Max Damage by 90%</color>\n<font="DefaultFont"><sprite name="CriticalChance_Icon"></font><#a5eaff>Critical Chance +20%</color>
-OHM_B_ChargedAttack_Desc_002,<font="DefaultFont"><sprite name="Damage_Icon"></font><#a5eaff>Increase Min~Max Damage by 110%</color>\n<font="DefaultFont"><sprite name="CriticalChance_Icon"></font><#a5eaff>Critical Chance +50%</color>
+OHM_B_ChargedAttack_Desc_001,<font="DefaultFont"><sprite name="Damage_Icon"></font><#a5eaff>Increase Min & Max Damage by 90%</color>\n<font="DefaultFont"><sprite name="CriticalChance_Icon"></font><#a5eaff>+20% Critical Chance</color>
+OHM_B_ChargedAttack_Desc_002,<font="DefaultFont"><sprite name="Damage_Icon"></font><#a5eaff>Increase Min & Max Damage by 110%</color>\n<font="DefaultFont"><sprite name="CriticalChance_Icon"></font><#a5eaff>+50% Critical Chance</color>
 THM_P_Mastery,Two-Handed Melee Mastery
-THM_P_Mastery_Desc,"While using a Two-Handed Melee Weapon, your 'Melee Accuracy', 'Critical Chance' and 'Melee Critical Efficiency' is increased."
+THM_P_Mastery_Desc,"While using a Two-Handed Melee Weapon, your Melee Accuracy, Critical Chance, and Melee Critical Efficiency is increased."
 THM_P_Club,Club Expert
 THM_P_Club_Desc,Club Expert
 THM_P_Tension,Adrenaline Rush
-THM_P_Tension_Desc,"Immediately prepare your body for a fight with a quick dose of adrenaline, as well as briefly improving your attacks."
-THM_P_Tension_Desc_001,<sprite name="maxAdrenaline_Icon"><#a5eaff>Aderenaline +3 Per Kill</color>
-THM_P_Tension_Desc_002,<sprite name="maxAdrenaline_Icon"><#a5eaff>Aderenaline +4 Per Kill</color>
-THM_P_Tension_Desc_003,<sprite name="maxAdrenaline_Icon"><#a5eaff>Aderenaline +5 Per Kill</color>
+THM_P_Tension_Desc,"Immediately prepare your body for a fight with a quick dose of adrenaline, as well as briefly improving your generation of it."
+THM_P_Tension_Desc_001,<sprite name="maxAdrenaline_Icon"><#a5eaff>+3 Adrenaline Per Kill</color>
+THM_P_Tension_Desc_002,<sprite name="maxAdrenaline_Icon"><#a5eaff>+4 Adrenaline Per Kill</color>
+THM_P_Tension_Desc_003,<sprite name="maxAdrenaline_Icon"><#a5eaff>+5 Adrenaline Per Kill</color>
 THM_A_HitHard,Stunning Strike
-THM_A_HitHard_Desc,"Strike a target, dealing increased damage with a chance to Stun."
-THM_A_HitHard_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Increase Min~Max Damage by 80%</color>\nEffect : Target <sprite name="Stun_icon">Stun for 1 turn (Chance 50%)
-THM_A_HitHard_Desc_002,<sprite name="Damage_Icon"><#a5eaff>Increase Min~Max Damage by 120%</color>\nEffect : Target <sprite name="Stun_icon">Stun for 1 turn (Chance 70%)
+THM_A_HitHard_Desc,"Strike a target, dealing increased damage with a chance to briefly Stun it."
+THM_A_HitHard_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Increase Min & Max Damage by 80%</color>\nEffect: <sprite name="Stun_icon">Stun target for 1 turn (Chance 50%)
+THM_A_HitHard_Desc_002,<sprite name="Damage_Icon"><#a5eaff>Increase Min & Max Damage by 120%</color>\nEffect: <sprite name="Stun_icon">Stun target for 1 turn (Chance 70%)
 THM_A_BigSwing,Sweeping Swing
 THM_A_BigSwing_Desc,Sweep your weapon in a wide arc around you to hit everything nearby.
-THM_A_BigSwing_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Increase Min~Max Damage by 10%</color>\n\nArea : adjacent 3 tile
-THM_A_BigSwing_Desc_002,<sprite name="Damage_Icon"><#a5eaff>Increase Min~Max Damage by 20%</color>\n\nArea : adjacent 3 tile
-THM_A_BigSwing_Desc_003,<sprite name="Damage_Icon"><#a5eaff>Increase Min~Max Damage by 30%</color>\n\nArea : adjacent 3 tile
+THM_A_BigSwing_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Increase Min & Max Damage by 10%</color>\n\nArea: Adjacent 3 tiles
+THM_A_BigSwing_Desc_002,<sprite name="Damage_Icon"><#a5eaff>Increase Min & Max Damage by 20%</color>\n\nArea: Adjacent 3 tiles
+THM_A_BigSwing_Desc_003,<sprite name="Damage_Icon"><#a5eaff>Increase Min & Max Damage by 30%</color>\n\nArea: Adjacent 3 tiles
 THM_A_LeapSwing,Leap Swing
 THM_A_LeapSwing_Desc,Leap Swing
 OHR_P_Mastery,Pistol Mastery
-OHR_P_Mastery_Desc,"While using a Pistol, your 'Range Accuracy' and 'Critical Chance' are increased while your 'Fumble Chance' is decreased."
+OHR_P_Mastery_Desc,"While using a Pistol, your Range Accuracy and Critical Chance are increased while your Fumble Chance is decreased."
 OHR_P_Reload,Reload Trick
-OHR_P_Reload_Desc,"When loading a bullet, use trickery to load more."
+OHR_P_Reload_Desc,"When loading a bullet, use some fancy manuevering to load in extra bullets."
 OHR_A_Target,Target On
 OHR_A_Target_Desc,Target and fire accurately.
 OHR_A_MovingShot,Outlaw of Titan
 OHR_A_MovingShot_Desc,"After attacking multiple targets, move to another tile."
-OHR_A_MovingShot_Desc_001,<sprite name="RangeAccuracy_Icon"><#a5eaff>Range Accuracy +4%</color>\nMax Attack Count : 2\nMove Distance : 1
-OHR_A_MovingShot_Desc_002,<sprite name="RangeAccuracy_Icon"><#a5eaff>Range Accuracy +7%</color>\nMax Attack Count : 3\nMove Distance : 1
-OHR_A_MovingShot_Desc_003,<sprite name="RangeAccuracy_Icon"><#a5eaff>Range Accuracy +10%</color>\nMax Attack Count : 4\nMove Distance : 1
+OHR_A_MovingShot_Desc_001,<sprite name="RangeAccuracy_Icon"><#a5eaff>+4% Range Accuracy</color>\nMax Attack Count: 2\nMove Distance: 1
+OHR_A_MovingShot_Desc_002,<sprite name="RangeAccuracy_Icon"><#a5eaff>+7% Range Accuracy</color>\nMax Attack Count: 3\nMove Distance: 1
+OHR_A_MovingShot_Desc_003,<sprite name="RangeAccuracy_Icon"><#a5eaff>+10% Range Accuracy</color>\nMax Attack Count: 4\nMove Distance: 1
 OHR_A_ChainBullet,Chain Bullet
 OHR_A_ChainBullet_Desc,Chain Bullet
 OHR_A_LastShot,Last Shot
@@ -167,7 +167,7 @@ OHR_A_LastShot_Desc,Last Shot
 OHR_B_Hero,Main Character
 OHR_B_Hero_Desc,The main character survives the enemy's attack.
 THR_P_Mastery,Rifle Mastery
-THR_P_Mastery_Desc,"While using a Rifle, your 'Range Accuracy', 'Critical Chance' and 'Range Critical Efficiency' are increased."
+THR_P_Mastery_Desc,"While using a Rifle, your Range Accuracy, Critical Chance, and Range Critical Efficiency are increased."
 THR_P_Trigger,Bonus Trigger
 THR_P_Trigger_Desc,Bonus Trigger
 THR_P_AimingPoint,Aiming Point
@@ -175,36 +175,36 @@ THR_P_AimingPoint_Desc,Aiming Point
 THR_B_Alert,Alert
 THR_B_Alert_Desc,Alert
 THR_A_Sinpe,Snipe
-THR_A_Sinpe_Desc,Snipe the target. Accuracy does not decrease even at long ranges.
-THR_A_Sinpe_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 110%</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff>Range Accuracy +10%</color>
-THR_A_Sinpe_Desc_002,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 130%</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff>Range Accuracy +15%</color>
-THR_A_Sinpe_Desc_003,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 150%</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff>Range Accuracy +20%</color>
+THR_A_Sinpe_Desc,Aim carefully to snipe the target. Accuracy does not decrease even at long ranges.
+THR_A_Sinpe_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 110%</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff>+10% Range Accuracy</color>
+THR_A_Sinpe_Desc_002,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 130%</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff>+15% Range Accuracy</color>
+THR_A_Sinpe_Desc_003,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 150%</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff>+20% Range Accuracy</color>
 THR_A_BurstShot,Burst Shot
 THR_A_BurstShot_Desc,Fire multiple bullets quickly.
-THR_A_BurstShot_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 10%</color>\n\nAttack count : 4 times.
-THR_A_BurstShot_Desc_002,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 20%</color>\n\nAttack count : 4 times.
-THR_A_BurstShot_Desc_003,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 30%</color>\n\nAttack count : 4 times.
+THR_A_BurstShot_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 10%</color>\n\nAttack count: 4 times.
+THR_A_BurstShot_Desc_002,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 20%</color>\n\nAttack count: 4 times.
+THR_A_BurstShot_Desc_003,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 30%</color>\n\nAttack count: 4 times.
 THR_A_EmptyMagazine,Empty Magazine
 THR_A_EmptyMagazine_Desc,Empty Magazine
 Bow_P_Mastery,Bow Mastery
-Bow_P_Mastery_Desc,"While using a Bow, your 'Range Accuracy' and 'Range Critical Efficiency' are increased while your 'Fumble Chance' is decreased."
+Bow_P_Mastery_Desc,"While using a Bow, your Range Accuracy and Range Critical Efficiency are increased while your Fumble Chance is decreased."
 Bow_P_TrimmingArrow,Aim For The Soft Parts
-Bow_P_TrimmingArrow_Desc,"Learn the limits of your arrows, so that you can salvage them more often after firing them."
+Bow_P_TrimmingArrow_Desc,"Avoid breaking your arrows on your targets, so that you can salvage them more often after firing them."
 Bow_P_Hunter,The Hunter
-Bow_P_Hunter_Desc,A smart hunter targets the weakness of the prey.
-Bow_P_Hunter_Desc_001,<sprite name="Injury_Icon_0"><#a5eaff>Min~Max Injuried Damage +2~3</color>\n<sprite name="Fracture_Icon_0"><#a5eaff>Min~Max fracture Damage +1~4</color>
-Bow_P_Hunter_Desc_002,<sprite name="Injury_Icon_0"><#a5eaff>Min~Max Injuried Damage +3~4</color>\n<sprite name="Fracture_Icon_0"><#a5eaff>Min~Max fracture Damage +2~5</color>
-Bow_P_Hunter_Desc_003,<sprite name="Injury_Icon_0"><#a5eaff>Min~Max Injuried Damage +4~5</color>\n<sprite name="Fracture_Icon_0"><#a5eaff>Min~Max fracture Damage +3~6</color>
+Bow_P_Hunter_Desc,A smart hunter targets the weakest points of its prey.
+Bow_P_Hunter_Desc_001,<sprite name="Injury_Icon_0"><#a5eaff>Min & Max Injuried Damage +2~3</color>\n<sprite name="Fracture_Icon_0"><#a5eaff>Min & Max fracture Damage +1~4</color>
+Bow_P_Hunter_Desc_002,<sprite name="Injury_Icon_0"><#a5eaff>Min & Max Injuried Damage +3~4</color>\n<sprite name="Fracture_Icon_0"><#a5eaff>Min & Max fracture Damage +2~5</color>
+Bow_P_Hunter_Desc_003,<sprite name="Injury_Icon_0"><#a5eaff>Min & Max Injuried Damage +4~5</color>\n<sprite name="Fracture_Icon_0"><#a5eaff>Min & Max fracture Damage +3~6</color>
 Bow_A_MultipleShot,Multishot
 Bow_A_MultipleShot_Desc,Nock several arrows at once and fire them at the same time at your target.
-Bow_A_MultipleShot_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 170%</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff>Range Accuracy -10%</color>
-Bow_A_MultipleShot_Desc_002,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 190%</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff>Range Accuracy -8%</color>
-Bow_A_MultipleShot_Desc_003,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 210%</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff>Range Accuracy -5%</color>
+Bow_A_MultipleShot_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 170%</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff>-10% Range Accuracy</color>
+Bow_A_MultipleShot_Desc_002,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 190%</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff>-8% Range Accuracy</color>
+Bow_A_MultipleShot_Desc_003,<sprite name="Damage_Icon"><#a5eaff>Increase Damage by 210%</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff>-5% Range Accuracy</color>
 Bow_A_AimLeg,"Aim For The Legs"
 Bow_A_AimLeg_Desc,"Aim for the legs, with a chance of inflicting a serious leg injury and limiting your target's movement."
-Bow_A_AimLeg_Desc_001,[Effect]\n-Target <sprite name="Leg_Fracture_State_Icon">Damaged Leg for 2 turn(Move Disabled Chance +50%)
-Bow_A_AimLeg_Desc_002,[Effect]\n-Target <sprite name="Leg_Fracture_State_Icon">Damaged Leg for 3 turn(Move Disabled Chance +60%)
-Bow_A_AimLeg_Desc_003,[Effect]\n-Target <sprite name="Leg_Fracture_State_Icon">Damaged Leg for 4 turn(Move Disabled Chance +70%)
+Bow_A_AimLeg_Desc_001,[Effect]\n-Target <sprite name="Leg_Fracture_State_Icon">Damaged Leg for 2 turns (Move Disabled Chance +50%)
+Bow_A_AimLeg_Desc_002,[Effect]\n-Target <sprite name="Leg_Fracture_State_Icon">Damaged Leg for 3 turns (Move Disabled Chance +60%)
+Bow_A_AimLeg_Desc_003,[Effect]\n-Target <sprite name="Leg_Fracture_State_Icon">Damaged Leg for 4 turns (Move Disabled Chance +70%)
 Bow_A_TraceArrow,Trace Arrow
 Bow_A_TraceArrow_Desc,Multiple Shot
 Bow_A_ArrowRain,Bow_A_ArrowRain
@@ -235,14 +235,14 @@ Trait_Bandage,Bandage
 Trait_Bandage_Desc,Stop the wound with a bandage.
 Phy_Adrenaline,Adrenaline
 Phy_Adrenaline_Desc,"Generate Adrenaline whenever you attack, are attacked, or kill something. While you have more than 50% Adrenaline, your combat abilities and fatigue are increased."
-Phy_Adrenaline_Stat_Desc,<sprite name="maxAdrenaline_Icon"><#a5eaff>Adrenaline (Melee +3 / Range +2)</color> Per Attack\n<sprite name="maxAdrenaline_Icon"><#a5eaff>Adrenaline +2</color> Per Hit\n<sprite name="maxAdrenaline_Icon"><#a5eaff> Adrenaline +4</color> Per Kill\n[ If Non-Combat ] <sprite name="maxAdrenaline_Icon"><#a5eaff> Adrenaline -0.25 </color> Per Turn\n[ If <sprite name="maxAdrenaline_Icon">Adrenaline greater than 50 ]\n><sprite name="Tired_Attribute_Icon"><#e91c1c> Tired +0.75%</color> Per Turn\n<sprite name="MeleeAccuracy_Icon"><#a5eaff> Melee Accuracy +3%</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff> Range Accuracy +2%</color>\n<sprite name="Fumble_Icon"><#a5eaff> Fumble Chance -3%</color>
+Phy_Adrenaline_Stat_Desc,<sprite name="maxAdrenaline_Icon"><#a5eaff>Adrenaline (Melee +3 / Range +2)</color> Per Attack\n<sprite name="maxAdrenaline_Icon"><#a5eaff>Adrenaline +2</color> Per Hit\n<sprite name="maxAdrenaline_Icon"><#a5eaff> Adrenaline +4</color> Per Kill\n[ If Non-Combat ] <sprite name="maxAdrenaline_Icon"><#a5eaff> Adrenaline -0.25 </color> Per Turn\n[ If <sprite name="maxAdrenaline_Icon">Adrenaline greater than 50 ]\n><sprite name="Tired_Attribute_Icon"><#e91c1c> Tired +0.75%</color> Per Turn\n<sprite name="MeleeAccuracy_Icon"><#a5eaff> +3% Melee Accuracy</color>\n<sprite name="RangeAccuracy_Icon"><#a5eaff> +2% Range Accuracy</color>\n<sprite name="Fumble_Icon"><#a5eaff>-3% Fumble Chance</color>
 Trait_Disorient,Confusion
-Trait_Disorient_Desc,Causes random direction movement based on random probability chance.
+Trait_Disorient_Desc,Causes you to move randomly.
 Trait_Test_Original,Steel Shoulder
 Trait_Test_Son,Steel Punch
 Phy_UnarmedDamage,Unarmed Attack
 Phy_UnarmedDamage_Desc,Damage while no weapons are equipped.
-Phy_UnarmedDamage_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Min~Max Physical Damage +2~8</color>
+Phy_UnarmedDamage_Desc_001,<sprite name="Damage_Icon"><#a5eaff>Min & Max Physical Damage +2~8</color>
 Trait_Stun,Stun
 Trait_Stun_Desc,That last attack really dazed you. You might need another second to get your senses back.
 Trait_Concentration,Concentration
